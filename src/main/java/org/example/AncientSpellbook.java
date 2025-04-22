@@ -34,4 +34,6 @@ public class AncientSpellbook {
         }
         return result;
     }
+
+    // Alternatif 3 spesifikasyon da burada verilebilir
 }
