@@ -3,12 +3,20 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         Game game = new Game();
-        game.addCharacter(new Warrior("Conan", 100, 15));
-        game.addCharacter(new Mage("Merlin", 80, 20));
-        game.addCharacter(new Archer("Legolas", 90, 18));
-        warrior.complexMethodExample();
-        mage.complexMethodExample();
-        archer.complexMethodExample();
-        game.StartGame();
+
+        Warrior warrior = new Warrior("Conan", 100, 15);
+        Mage mage = new Mage("Merlin", 80, 20);
+        Archer archer = new Archer("Legolas", 90, 18);
+
+        // ADDED: Smoke Test - New Methods
+        warrior.stronger();
+        mage.shield();
+        archer.evade();
+
+        game.addCharacter(warrior);
+        game.addCharacter(mage);
+        game.addCharacter(archer);
+
+        game.startGame(); // previously fixed from StartGame
     }
 }
