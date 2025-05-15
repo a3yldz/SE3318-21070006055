@@ -35,12 +35,12 @@ public class CharacterTest {
     @Test
     public void testDefend() {
         Character character = new Warrior("Legolas", 100, 20);
-        character.defend(); // sadece output verir, exception atmaması yeterli
+        character.defend(); // Just output, we r okay with dont take exception
     }
 
     @Test
     public void testComplexMethodExample() {
         Character character = new Warrior("Thorin", 100, 10);
-        character.complexMethodExample(); // sadece output verir, exception atmaması yeterli
+        character.complexMethodExample(); // Just output, we r okay with dont take exception
     }
 }
