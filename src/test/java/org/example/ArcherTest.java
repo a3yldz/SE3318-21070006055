@@ -20,7 +20,7 @@ public class ArcherTest {
     public void testEvadePrintsMessage() {
         Archer archer = new Archer("Robin", 70, 12);
 
-        // Çıktı kontrolü yapmıyoruz ama metodun sorunsuz çalışmasını test ediyoruz
+// We do not check the output but we test that the method works properly
         archer.evade();
     }
 }
