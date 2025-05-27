@@ -15,7 +15,7 @@ public class App {
 
         System.out.println("PAYMENT PROCESSING TEST-----------------");
         PaymentService paymentService = new PaymentService();
-        boolean paymentSuccess = paymentService.processPayment("", -250.00, "USD");
+        boolean paymentSuccess = paymentService.processPayment("", -250.00, "TL");
         System.out.println("Payment success: " + paymentSuccess);
     }
 }

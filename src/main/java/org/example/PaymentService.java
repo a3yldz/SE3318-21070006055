@@ -18,8 +18,8 @@ public class PaymentService {
         }
 
         if (cardNumber.startsWith("4")) {
-            if (currency.equals("USD")) {
-                System.out.println("Processing Visa USD payment");
+            if (currency.equals("TL")) {
+                System.out.println("Processing Visa TL payment");
             } else {
                 System.out.println("Processing Visa payment in other currency");
             }
